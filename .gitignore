@@ -3,5 +3,8 @@ htmlcov/
 
 settings_local.py
 
-*.sock
+*.html
+*.log
+*.pid
 *.rdb
+*.sock
