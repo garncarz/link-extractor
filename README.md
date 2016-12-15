@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/garncarz/link-extractor.svg?branch=master)](https://travis-ci.org/garncarz/link-extractor)
+[![Coverage Status](https://coveralls.io/repos/github/garncarz/link-extractor/badge.svg?branch=master)](https://coveralls.io/github/garncarz/link-extractor?branch=master)
+
+
 ## Installation
 
 Needed: Python 3.5
