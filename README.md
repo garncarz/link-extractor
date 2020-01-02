@@ -61,3 +61,6 @@ $ jq < out/a9b9f04336ce0181a08e774e01113b31.json
 ## Testing
 
 `./test.sh` (also generates a coverage)
+
+
+<!-- ❄️ Hello to the GitHub Archive! ❄️ -->
