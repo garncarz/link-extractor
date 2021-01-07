@@ -6,10 +6,10 @@
 #
 amqp==2.1.4               # via kombu
 billiard==3.5.0.2         # via celery
-celery[redis]==4.0.1
-grab==0.6.30
+celery[redis]==4.0.1      # via -r requirements.in
+grab==0.6.30              # via -r requirements.in
 kombu==4.0.1              # via celery
-lxml==3.7.0               # via grab, selection, weblib
+lxml==4.6.2               # via grab, selection, weblib
 pycurl==7.43.0            # via grab
 pytils==0.3               # via weblib
 pytz==2016.10             # via celery
