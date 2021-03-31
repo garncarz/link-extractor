@@ -4,18 +4,44 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-amqp==2.1.4               # via kombu
-billiard==3.5.0.2         # via celery
+amqp==2.1.4
+    # via kombu
+billiard==3.5.0.2
+    # via celery
 celery[redis]==4.0.1
+    # via -r requirements.in
 grab==0.6.30
-kombu==4.0.1              # via celery
-lxml==3.7.0               # via grab, selection, weblib
-pycurl==7.43.0            # via grab
-pytils==0.3               # via weblib
-pytz==2016.10             # via celery
-redis==2.10.5             # via celery
-selection==0.0.11         # via grab
-six==1.10.0               # via grab, selection, user-agent, weblib
-user-agent==0.1.5         # via grab, weblib
-vine==1.1.3               # via amqp
-weblib==0.1.20            # via grab, selection
+    # via -r requirements.in
+kombu==4.0.1
+    # via celery
+lxml==4.6.3
+    # via
+    #   grab
+    #   selection
+    #   weblib
+pycurl==7.43.0
+    # via grab
+pytils==0.3
+    # via weblib
+pytz==2016.10
+    # via celery
+redis==2.10.5
+    # via celery
+selection==0.0.11
+    # via grab
+six==1.10.0
+    # via
+    #   grab
+    #   selection
+    #   user-agent
+    #   weblib
+user-agent==0.1.5
+    # via
+    #   grab
+    #   weblib
+vine==1.1.3
+    # via amqp
+weblib==0.1.20
+    # via
+    #   grab
+    #   selection
